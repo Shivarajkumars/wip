@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: testmsrk8s.azurecr.io/wip:2
+        image: shivarajkumars/wip:2
         ports:
         - containerPort: 33333
       imagePullSecrets:
