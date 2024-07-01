@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: java-app
-        image: shivarajkumars/wip:2
+        image: shivarajkumars/wip:latest
         ports:
         - containerPort: 33333
       imagePullSecrets:
